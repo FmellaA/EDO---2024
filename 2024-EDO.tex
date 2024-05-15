@@ -1,0 +1,32 @@
+\documentclass[letterpaper,12pt]{report}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[paper=letterpaper,left=3cm,right=3cm,top=3cm,bottom=2cm,includefoot]{geometry}
+\usepackage[colorlinks]{hyperref}
+\usepackage{subfiles}
+\usepackage{amsmath}
+\usepackage{float}
+\usepackage{enumerate}
+\usepackage{tabularx}
+\usepackage{xcolor}
+
+\begin{document}
+
+\begin{titlepage}
+    
+    \centering
+    \vspace*{5cm}
+    \Large \textbf{Apunte} \\ 
+%\rule{\textwidth}{0.4pt}
+    \Huge Ecuaciones Diferenciales Ordinarias \\
+%\rule{\textwidth}{0.4pt}
+    \vspace{0.2cm}
+    \large \textbf{Fernanda Mella A.}  
+\end{titlepage}
+
+\tableofcontents
+
+\chapter{EDOs No lineales}
+\subfile{tex/Euler-Cauchy.tex}
+
+\end{document}
